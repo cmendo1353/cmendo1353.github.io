@@ -22,7 +22,7 @@ author: Some Person
 navbar-links:
   Home: "cmendo1353.github.io" 
   About: "cmendo1353.github.io"
-  - Overview: "cmendo1353.github.io/overview.md"
+  - Overview: "overview.md"
 
 ################
 # --- Logo --- #
