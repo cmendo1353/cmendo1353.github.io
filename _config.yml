@@ -20,7 +20,7 @@ author: Some Person
 ###############################################
 
 navbar-links:
-  Home: 
+  Home: "cmendo1353.github.io" 
   Timeline: 
   Narrative:
   About: "aboutme" 
@@ -35,7 +35,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "https://images.icon-icons.com/640/PNG/512/smiley-face-emoticon-avatar-brand_icon-icons.com_59171.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
