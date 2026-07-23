@@ -23,6 +23,7 @@ navbar-links:
   Home: "cmendo1353.github.io" 
   About: 
   - Overview: "overview"
+  - Bibliography: "bibliography" 
 
 ################
 # --- Logo --- #
