@@ -21,8 +21,7 @@ author: Some Person
 
 navbar-links:
   Home: "cmendo1353.github.io" 
-  Narrative: 
-  - Introduction: "introduction" 
+  Narrative: "narrative" 
   About: 
   - Overview: "overview"
   - Bibliography: "bibliography" 
