@@ -1,7 +1,7 @@
 --- 
 layout: page 
 title: The Data  
-subtitle: blehhh 
+subtitle: Data Critique of the 2020 World Happiness Report
 --- 
 
 ### What information is included in our dataset?
