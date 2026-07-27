@@ -11,12 +11,16 @@ In this journal article, Blanchflower examines the relationship between age and 
 
 </details>
 
+<br>
+
 <details>
   <summary><b>Danish MH, Nawaz SMN, Javaid SF, Khan MAB. (2024). Relation between corruption, institutional trust, and subjective well-being: An empirical analysis. Journal of Infrastructure, Policy and Development. 8(14): 7825. https://doi.org/10.24294/jipd7825</b></summary>
 
 In this article, the authors are examining the relationship between perceived corruption (PC) and subjective well-being (SWB) and institutional trust (IT) as a mediator of the two based on data from 1566 households in Pakistan, which is a developing country. Associated with reducing access to public services and directly affecting how each individual reacts emotionally, corruption can limit one's well-being physically and psychologically and significantly reduce a society's IT. The paper tested 4 different hypotheses: "H1: PC has a negative and significant influence on IT (β = 0.43, p < 0.01). H2: Institutional quality mediates the relation between PC and SWB (β = 0.20, p < 0.01). H3: Perceived institutional quality positively and significantly improves SWB. H4: PC erodes SWB." These claims were all validated from this data and its methodology. Because PC and SWB are variables that play a role in the World Happiness Report, this information could help provide understanding why certain factors may play a role in explaining a country's happiness. One critique is that the source only utilizes its sample from Pakistan and leaves out other countries, meaning it may not be representative of other countries/regions.
 
 </details>
+
+<br>
 
 <details>
   <summary><b>Diener, Ed, Weiting Ng, James Harter, and Raksha Arora. Wealth and Happiness across the World: Material Prosperity Predicts Life Evaluation, Whereas Psychosocial Prosperity Predicts Positive Feeling. Journal of Personality and Social Psychology 99, no. 1 (July 2010): 52–61. https://doi.org/10.1037/a0018066.</b></summary>
@@ -25,12 +29,16 @@ In this article, the authors start off by mentioning the classic question of "do
 
 </details>
 
+<br>
+
 <details>
   <summary><b>Dwyer, Ryan J., and Elizabeth W. Dunn. Wealth Redistribution Promotes Happiness. Proceedings of the National Academy of Sciences 119, no. 45 (2022): e2118751119. https://www.pnas.org/doi/10.1073/pnas.2211123119.</b></summary>
 
 In this paper, the authors are looking into the idea of being wealthy can increase happiness and reduce inequalities in well being among people. The argument is focusing on how financial status has a greater impact on lower income individuals than on individuals who are higher income, this is suggesting that reducing income inequality can improve overall happiness for both groups. To support the claim, the authors are using a large scale experimental data and survey evidence that compare changes in well being before and after financial support is being distributed. This source is important because it provides supportive evidence on how economic inequality plays a huge role in determining happiness levels. For the thesis, this article directly connects to the economic variables included in the World Happiness Report, such as GDP per capita, while also including the opportunity to have a broader discussion about how wealth is distributed within countries. Overall, the article is significant because it shows that higher national income does not always mean greater happiness unless economic support is able to improve the well being of the population.
 
 </details>
+
+<br>
 
 <details>
   <summary><b>Easterlin, Richard A., Laura Angelescu McVey, Malgorzata Switek, Onnicha Sawangfa, and Jacqueline Smith Zweig. The Happiness–Income Paradox Revisited. Proceedings of the National Academy of Sciences 107, no. 52 (December 28, 2010): 22463–68. https://doi.org/10.1073/pnas.1015962107.</b></summary>
@@ -39,12 +47,16 @@ Here we find the seemingly contradictory assertion that a nation can earn more m
 
 </details>
 
+<br>
+
 <details>
   <summary><b>Exton, Carrie, Conal Smith, and Damien Vandendriessche. Comparing Happiness Across the World: Does Culture Matter? OECD Statistics Working Papers, no. 2015/04. Paris: OECD Publishing, 2015. https://doi.org/10.1787/5jrqppzd9bs2-en</b></summary>
 
 In this paper, the authors examine whether cultural differences make it difficult to accurately compare happiness across countries. They separate culture into two possible effects: cultural bias, where culture affects how people understand or answer survey questions, and cultural impact, where culture actually shapes how people experience their lives. Using multiple waves of Gallup World Poll data from more than 150 countries and territories, the authors analyze cultural values, differences in how positively people evaluate different parts of life, and the happiness of migrants living outside their countries of origin. They find that objective life circumstances, such as income, health, employment, and social conditions, explain most international differences in subjective well-being. However, culture may explain around 20 percent of the country-level variation that remains unexplained after these factors are considered. This source is important to our research because our dataset also uses Gallup World Poll data to compare Ladder Scores across countries. It supports Wierzbicka's argument that culture can influence happiness reports, but it also shows that cultural differences do not make international comparisons completely unreliable because life circumstances still explain most of the variation. One limitation is that the authors cannot fully separate cultural bias from the actual influence of culture on people's well-being. In addition, some of the unexplained country differences may come from other factors that were not included in their models. For our project, this source helps us argue that culture and language should be considered when interpreting Ladder Scores, while avoiding the conclusion that all geographical differences are simply caused by culture.
 
 </details>
+
+<br>
 
 <details>
   <summary><b>Fidrmuc, Jan, and Cigdem Börke Tunali. Happiness and Religion. SSRN Electronic Journal, July 20, 2015. https://doi.org/10.2139/ssrn.2636221.</b></summary>
@@ -53,12 +65,16 @@ In this article, the authors attempt to find if whether there is a correlation b
 
 </details>
 
+<br>
+
 <details>
   <summary><b>Helliwell, John F., Haifang Huang, Hugh Shiplett, and Shun Wang. Happiness of the Younger, the Older, and Those in between | the World Happiness Report. World Happiness Report, 2024. https://www.worldhappiness.report/ed/2024/happiness-of-the-younger-the-older-and-those-in-between/.</b></summary>
 
 In this article by the World Happiness Report, the authors examine how happiness differs among populations by age across countries and global regions. Instead of treating each country's average happiness score to represent its entire population, the authors chose to divide respondents into four age groups: people under 30, people between 30 and 44, people between 45 and 59, and people who were aged 60 and older. They compare life evaluation and emotional well being data from 2021-2023 with results from 2006-2010. The report's happiness rankings are based on the Gallup World Poll's Cantril Ladder question, which asks individuals to rate their lives scale from zero to ten. There are around 1,000 responses collected from each country annually, and the rankings use three-year averages to produce more precise estimates. The authors emphasize that "rankings differ a lot for the young and old," demonstrating that national averages may hide major differences between demographic groups. This resource finds that younger people report lower happiness than older people in countries such as the United States and Canada, while the opposite is true in several Central and Eastern European countries. The authors conclude that "age and generation both matter for happiness," meaning that people's social and historical experiences can shape how they evaluate their lives. This source is credible because it uses large-scale international survey data, and it was written by established happiness researchers as well as published on the World Happiness Report website. It is useful for our project because it shows that national happiness rankings do not represent every age group equally and should be interpreted carefully.
 
 </details>
+
+<br>
 
 <details>
   <summary><b>Jebb, Andrew T., Louis Tay, Ed Diener, and Shigehiro Oishi. Subjective Well-Being around the World: Trends and Predictors Across the Life Span. Psychological Science 31, no. 3 (2020): 293–305. https://pubmed.ncbi.nlm.nih.gov/32045327/.</b></summary>
@@ -67,12 +83,16 @@ In this article, the authors examine how personal well being changes when facing
 
 </details>
 
+<br>
+
 <details>
   <summary><b>Kahneman, Daniel, and Angus Deaton. High Income Improves Evaluation of Life but Not Emotional Well-Being. Proceedings of the National Academy of Sciences 107, no. 38 (September 21, 2010): 16489–93. https://doi.org/10.1073/pnas.1011492107.</b></summary>
 
 As a result, the method differentiates between two distinct parts of happiness: a life evaluation and emotional well-being, which is very useful for us. Life evaluation is about rating your life in accordance with the Cantril ladder, while emotional well-being is about the moods you experience daily – happiness, stress, and others. The research discovered that while people's life evaluations increase with their income, it is different in terms of emotional well-being, which increases only until a certain amount of money is achieved. This means that the more money a person has, the better they evaluate their lives, but this does not have any effect on their current emotions. The material is based on the responses gathered by the researchers through the Gallup Healthways Well-Being Index, which was conducted around 1 thousand interviews per day during the years 2008-2009, making it a large sample. This is important to note because we are conducting our analysis based on the Cantril ladder, which is a life measurement scale and not the mood scale. This means that the results of the study suggest that our Ladder Score might correlate with income in a different way than how people's feelings are supposed to do, which is indeed what we are after. Of course, it is important to note that the research was done on the US population only, and it may not be valid in poorer countries.
 
 </details>
+
+<br>
 
 <details>
   <summary><b>Martela, Frank, Bent Greve, Bo Rothstein, and Juho Saari. The Nordic Exceptionalism: What Explains Why the Nordic Countries Are Constantly among the Happiest in the World? In World Happiness Report 2020, edited by John F. Helliwell, Richard Layard, Jeffrey D. Sachs, and Jan-Emmanuel De Neve, 129–146. New York: Sustainable Development Solutions Network, 2020. https://files.worldhappiness.report/WHR20_Ch07.pdf</b></summary>
@@ -81,12 +101,16 @@ The authors examine why Finland, Denmark, Norway, Sweden, and Iceland are consis
 
 </details>
 
+<br>
+
 <details>
   <summary><b>Masaki, Katsu, and Jit Tshering. Exploring the Origins of Bhutan's Gross National Happiness. Journal of South Asian Development 16, no. 2 (August 31, 2021): 273–92. https://doi.org/10.1177/09731741211039049.</b></summary>
 
 In this article, the authors analyze Bhutan's Gross National Happiness (GNH), which the country has utilized in favor of GDP as a measure of GDP as GNH is multidimensional and considers more cultural, emotional, and spiritual aspects of one's life while GDP only measures production of goods and not people's actual perceived well being; in their analysis, the main argument the authors make is that GNH is not a sudden tool created by Bhutanese elites to keep their rule, but was rather developed overtime by incorporating ideals from Bhutanese culture, including Buddhist philosophy, and for keeping a sense of national security, which makes the authors encourage on how other countries, perhaps more multicultural, could make happiness indexes that represent all citizens. The authors use the 5-7th five year plans of Bhutan, their historical context and geography as a Buddhist kingdom, and Buddhist views to encourage the rise of GNH. Overall, this source is significant as it provides a deep dive into other methods of analyzing happiness in a society in contrast to the Cantril ladder, and opens up into the idea that perhaps in terms of happiness indexes, one size does not fit all societies. In my thesis, this paper has a more supplemental role, as we plan to utilize mentions of this paper for our timeline in terms of analyzing has happiness has been measured and introducing the idea that happiness can be measured in other ways; however, unlike the past 2 papers, it's not meant to be supporting a very concrete/established idea, but rather, more of a theoretical idea of what is really means to measure happiness. One main critique of this paper given the context in which we are using it is that it is more of a rebuttal/defensive paper rather than just being a neutral standpoint. The paper was meant to be a rebuttal to those who called GNH a tool used by Bhutanese elites to maintain their power, which forces the paper to have some bias towards the model; additionally, for a paper meant to serve as a rebuttal of GNH not being a tool of the elite, it doesn't really discuss how effective the GNH has been and is in truly measuring happiness.
 
 </details>
+
+<br>
 
 <details>
   <summary><b>Oishi, Shigehiro, and Erin C. Westgate. A Psychologically Rich Life: Beyond Happiness and Meaning. Psychological Review 129, no. 4 (2022): 790–811. https://www.apa.org/pubs/journals/releases/rev-rev0000317.pdf.</b></summary>
@@ -95,12 +119,16 @@ In this article, the authors start off by arguing how he believes happiness and 
 
 </details>
 
+<br>
+
 <details>
   <summary><b>Oishi, Shigehiro, Selin Kesebir, and Ed Diener. Income Inequality and Happiness. Psychological Science 22, no. 9 (September 2011): 1095–1100. https://doi.org/10.1177/0956797611417262.</b></summary>
 
 The researchers Oishi and his colleagues abandoned the common practice of asking about earnings without reason. Instead, they studied how the distribution of earnings affects individuals' wellbeing. They found that Americans were happier in years when earnings were more equally distributed and less happy in years when earnings inequality was increasing. Their findings come from the General Social Survey, conducted continuously from 1972 until 2008. According to their version of events, when income inequality increases, people tend to believe that others become less fair and trustworthy. Moreover, it should be noted that the lower the income level is, the greater the effect of income inequality is. The good news is that their results might support our work because we also have GDP per capita and no information on how income is distributed domestically, but their conclusions are alarming. The limitations of their research include a narrow basis of data because their survey is limited to the USA only, and what is worse, their results do not prove that it is precisely income inequality that is affecting the individuals' life quality.
 
 </details>
+
+<br>
 
 <details>
   <summary><b>Pérez-Cárceles, M. C., & Fernández-Valera, M. M. (2026). Analysis of the Impact of Corruption Perception on Subjective Wellbeing: Revisiting the Boiling Frog Parable from the World Happiness Report 2020. Empiria (Madrid), (67), 125–139. https://doi.org/10.5944/empiria.67.2026.48257</b></summary>
@@ -109,6 +137,8 @@ In this article, the authors are examining the relationship between perceived co
 
 </details>
 
+<br>
+
 <details>
   <summary><b>Rojas, Mariano. Heterogeneity in the relationship between income and happiness: A conceptual-referent-theory explanation. Journal of Economic Psychology, vol. 28, no. 1, 2007, pp. 1-14. https://doi.org/10.1016/j.joep.2005.10.002.</b></summary>
 
@@ -116,12 +146,16 @@ In this article, Rojas utilizes the conceptual-referent theory of happiness (CRT
 
 </details>
 
+<br>
+
 <details>
   <summary><b>Swami, Viren, et al. Life Satisfaction around the World: Measurement Invariance of the Satisfaction with Life Scale (SWLS) across 65 Nations, 40 Languages, Gender Identities, and Age Groups. PubMed Central, 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC11753666/.</b></summary>
 
 Swami and his colleagues examine whether the Satisfaction With Life Scale measures life satisfaction consistently across different countries, languages, gender identities, and age groups. The scale asks participants to respond to five statements that ask about how satisfied they are with their lives. This data collected 56,968 participants in 65 nations and 40 languages between 2020 and 2022. Using this data, the researchers test whether people from different backgrounds interpret the scale in similar ways. They explain that the data is a "widely used self-report measure of subjective well-being," but previous research had not tested it across such a large and diverse international sample. The study finds that the scale generally measures the same "common unidimensional construct" across the aforementioned categories, meaning that it can be useful for comparing life satisfaction between different populations. However, the authors also find some variation in how individual questions on the scale are interpreted across countries and languages. These differences demonstrate that culture and the way these surveys are translated may influence the way people respond, even when the overall scale remains reliable. The researchers found large differences in average life satisfaction between different nations, while the differences surrounding gender and identity are much smaller. They also admit that their sample did not nationally represent the population and it also included more women and younger adults. This places limits on how broadly their findings can be applied to society. This peer reviewed source is credible because similarly to the previous reading, it uses a large international dataset, as well as following consistent research procedures. This resource supports the use of life satisfaction surveys for comparisons when it comes to the international level while also demonstrating that there are various other influences that must be considered when interpreting global happiness data.
 
 </details>
+
+<br>
 
 <details>
   <summary><b>Wierzbicka, Anna. 'Happiness' in Cross-Linguistic and Cross-Cultural Perspective. Daedalus, vol. 133, no. 2, 2004, pp. 34–43. https://doi.org/10.1162/001152604323049370</b></summary>
