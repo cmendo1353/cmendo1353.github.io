@@ -20,7 +20,7 @@ author: "Anish Saraswat, Kexin Wang, Cameron Mendoza, Selma Momani, Matin Nikoom
 ###############################################
 
 navbar-links:
-  Home: ""
+  Home: "/"
   Data: "data"
   Narrative: "narrative"
   Case Study: "casestudy"
@@ -44,7 +44,7 @@ round-avatar: true
 #title-img: /path/to/image
 
 # Link for the site title/logo (where it takes you when clicked)
-site-url: ""
+site-url: "/"
 
 #####################################
 # --- Footer social media links --- #
