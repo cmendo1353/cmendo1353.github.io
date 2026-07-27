@@ -43,6 +43,8 @@ round-avatar: true
 # then specify the following parameter
 #title-img: /path/to/image
 
+# Link for the site title/logo (where it takes you when clicked)
+site-url: ""
 
 #####################################
 # --- Footer social media links --- #
