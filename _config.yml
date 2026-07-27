@@ -10,23 +10,23 @@
 ############################
 
 # Name of website
-title: Positivity Project: Happiness Around the World  
+title: "Positivity Project: Happiness Around the World"
 
 # Your name to show in the footer
-author: Anish Saraswat, Kexin Wang, Cameron Mendoza, Selma Momani, Matin Nikoomanzar, Edwin Navarro
+author: "Anish Saraswat, Kexin Wang, Cameron Mendoza, Selma Momani, Matin Nikoomanzar, Edwin Navarro"
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  Home: "cmendo1353.github.io" 
+  Home: "cmendo1353.github.io"
   Data: "data"
-  Narrative: "narrative" 
+  Narrative: "narrative"
   Case Study: "casestudy"
-  About: 
+  About:
   - Overview: "overview"
-  - Bibliography: "bibliography" 
+  - Bibliography: "bibliography"
 
 ################
 # --- Logo --- #
@@ -196,7 +196,7 @@ footer-hover-col: "#0085A1"
 #  endpoint   : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
 #  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well)
 #    siteKey  : # You need to apply for a site key on Google
-#    secret   : # Encrypt your password by going to https://<your-own-api>/v3/encrypt/<your-own-api>/v3/encrypt/<your-own-secret>
+#    secret   : # Encrypt your password by going to https://<your-own-api>/v3/encrypt/<your-site-secret>
 
 # To use giscus comments:
 # (0) Uncomment the following giscus section, (1) Enable Discussions in your GitHub repository,
