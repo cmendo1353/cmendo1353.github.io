@@ -23,7 +23,6 @@ navbar-links:
   Home: "/"
   Data: "data"
   Narrative: "narrative"
-  Case Study: "casestudy"
   About:
   - Overview: "overview"
   - Bibliography: "bibliography"
