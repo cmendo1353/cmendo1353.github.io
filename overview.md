@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Overview  
+title: Overview/About
 subtitle: Project Description
 ---
 
-This is our World Happiness Report
+The Positivity Project is meant to address several humanistic questions regarding the 2020 World Happiness Report. This page goes over how the project was made each step along the way, gives a brief introduction of each member of the project and their role, and finally gives gratitudes to others who made the project possible.
 
 ### Sourcing 
 
