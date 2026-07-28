@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Our Next Question: What Does the Report Mean by the Term Happiness, and if the Specific Query Changed to One Related to Meaning or Purpose, Would the Answers Differ?"
+title: "Our Next Question:"
+subtitle: What Does the Report Mean by the Term Happiness, and if the Specific Query Changed to One Related to Meaning or Purpose, Would the Answers Differ?
 ---
 
 After identifying the countries and regions with the highest and lowest scores, as well as the factors that appear to explain those scores, it is important to consider what the dataset actually means. The World Happiness Report asks people to evaluate their lives on a ladder-type scale; this captures how positively respondents judge their lives at the time of the survey.
