@@ -5,17 +5,22 @@ subtitle: Happiness Around the World
 ---
 
 <style>
-/* Overlay image styles */
-.overlay-image-container{position:relative;width:100%;height:260px;margin-bottom:1rem;}
-.overlay-image{position:absolute;top:0;left:50%;transform:translateX(-50%);width:240px;max-width:40%;z-index:9999;border-radius:8px;box-shadow:0 4px 10px rgba(0,0,0,0.2);}
-.overlay-image-caption{position:absolute;top:calc(100% + 0.5rem);left:50%;transform:translateX(-50%);font-size:0.85rem;color:#666;text-align:center;z-index:10000;}
-.main-content{position:relative;z-index:1;margin-top:140px;}
-@media (max-width:600px){ .overlay-image{width:140px;max-width:60%;} .main-content{margin-top:90px;} }
+/* Hero image styles - full width, responsive, and covers container */
+.overlay-image-container{position:relative;width:100%;height:360px;overflow:hidden;margin-bottom:1.25rem;border-radius:6px;}
+.overlay-image{display:block;width:100%;height:100%;object-fit:cover;object-position:center center;border:0;}
+.overlay-image-caption{position:absolute;right:1rem;bottom:0.75rem;background:rgba(255,255,255,0.85);padding:0.35rem 0.6rem;border-radius:4px;font-size:0.85rem;color:#333;text-align:right;}
+
+/* Reduce height on small screens */
+@media (max-width:900px){ .overlay-image-container{height:260px;} }
+@media (max-width:600px){ .overlay-image-container{height:180px;} .overlay-image-caption{font-size:0.78rem;right:0.5rem;bottom:0.5rem;} }
+
+/* Ensure main content sits below the hero */
+.main-content{position:relative;z-index:1}
 </style>
 
 <div class="overlay-image-container">
   <img class="overlay-image" src="https://static.vecteezy.com/system/resources/thumbnails/070/022/467/small/wooden-smiley-face-in-nature-a-symbol-of-joy-and-positivity-free-photo.jpg" alt="Wooden smiley face in nature">
-  <div class="overlay-image-caption">Photo: Vecteezy — <a href="https://www.vecteezy.com/free-stock-photos/wooden-smiley-face-in-nature">https://www.vecteezy.com/free-stock-photos/wooden-smiley-face-in-nature</a></div>
+  <div class="overlay-image-caption">Photo: Vecteezy — <a href="https://www.vecteezy.com/free-stock-photos/wooden-smiley-face-in-nature" target="_blank" rel="noopener">vecteezy.com/free-stock-photos/wooden-smiley-face-in-nature</a></div>
 </div>
 
 <div class="main-content">
