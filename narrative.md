@@ -15,7 +15,7 @@ subtitle: null
 <div class='tableauPlaceholder' id='viz1785219215367' style='position: relative'>
   <noscript>
     <a href='#'>
-      <img alt='Average Cantril Ladder/Happiness Score by Country (World Happiness Report 2020)' src='https://public.tableau.com/...'>
+      <img alt='Average Cantril Ladder/Happiness Score by Country (World Happiness Report 2020)' src='https://public.tableau.com/views/Book2_17849471301450/Sheet2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'>
     </a>
   </noscript>
 </div>
@@ -37,7 +37,7 @@ subtitle: null
 <div class='tableauPlaceholder' id='viz1785219285875' style='position: relative'>
   <noscript>
     <a href='#'>
-      <img alt='Average Ladder Score by Region' src='https://public.tableau.com/...'>
+      <img alt='Average Ladder Score by Region' src='https://public.tableau.com/views/AverageLadderScorebyRegion/Sheet5?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'>
     </a>
   </noscript>
 </div>
@@ -57,7 +57,7 @@ subtitle: null
 <div class='tableauPlaceholder' id='viz1785219326374' style='position: relative'>
   <noscript>
     <a href='#'>
-      <img alt='Top 15 Countries by Average Cantril Ladder Score' src='https://public.tableau.com/...'>
+      <img alt='Top 15 Countries by Average Cantril Ladder Score' src='https://public.tableau.com/views/Top15CountriesbyAvgCantrilLadderScore/Sheet3?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'>
     </a>
   </noscript>
 </div>
@@ -77,7 +77,7 @@ subtitle: null
 <div class='tableauPlaceholder' id='viz1785219363485' style='position: relative'>
   <noscript>
     <a href='#'>
-      <img alt='Bottom 15 Countries by Average Cantril Ladder Score' src='https://public.tableau.com/...'>
+      <img alt='Bottom 15 Countries by Average Cantril Ladder Score' src='https://public.tableau.com/views/Bottom15CountriesbyAvgCantrilLadderScore/Sheet4?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'>
     </a>
   </noscript>
 </div>
