@@ -21,6 +21,8 @@ To start off our narrative, we first thought of finding out what the happiest an
     vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
 </script>
 
+<br>
+
 Figure 1.1: Choropleth map of Average Cantril Ladder Scores across 153 Countries
 
 <br>
@@ -57,7 +59,8 @@ On the map, in addition to the color scale, we can hover the cursor above each c
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
-
+<br>
+  
 Figures 1.2, 1.3, and 1.4: Bar Graphs showing the Average Ladder Score by Region, the Top 15 and Bottom 15 Countries by Average Ladder Score Respectively.
 
 <br>
