@@ -53,8 +53,13 @@
     </div>
   </div>
   {% endif %}
-  {% if page.cover-img %}<span class='img-desc'></span>{% endif %}
+  <!-- moved caption out so it appears below the image instead of over it -->
 </div>
+
+{% if page.cover-img %}
+  <!-- caption element placed below the header image. JS will continue to update/show it. -->
+  <p class="img-desc caption" style="text-align:center; font-size:0.875rem; padding:0.625rem; font-style:italic; color:#777; margin:0.5rem 0 0; display:none; background:transparent;"></p>
+{% endif %}
 
 {% if page.header-extra %}
   {% for file in page.header-extra %}
