@@ -12,7 +12,7 @@ subtitle: null
 
 To start off our narrative, we first thought of finding out what the happiest and unhappiest countries/regions are in the world from the data. The dataset includes responses from 153 countries and[...]
 
-<div class='tableauPlaceholder' id='viz1785123122085' style='position: relative'><noscript><a href='#'><img alt='Sheet 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;[...]
+<div class='tableauPlaceholder' id='viz1785123122085' style='position: relative'><noscript><a href='#'><img alt='Sheet 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;[...]'
 
 <script type='text/javascript'>
     var divElement = document.getElementById('viz1785123122085');
@@ -25,7 +25,7 @@ Figure 1: Choropleth map of Average Cantril Ladder Scores across 153 Countries
 
 On the map, in addition to the color scale, we can hover the cursor above each country to get their exact average score. While this map is valuable for seeing overall larger trends, we can also us[...]
 
-<div class='tableauPlaceholder' id='viz1785207834984' style='position: relative'><noscript><a href='#'><img alt='Average Ladder Score by Region ' src='https:&#47;&#47;public.tableau.com&#47;static[...]
+<div class='tableauPlaceholder' id='viz1785207834984' style='position: relative'><noscript><a href='#'><img alt='Average Ladder Score by Region ' src='https:&#47;&#47;public.tableau.com&#47;static[...]'
 
 <script type='text/javascript'>
     var divElement = document.getElementById('viz1785207834984');
@@ -36,7 +36,7 @@ On the map, in addition to the color scale, we can hover the cursor above each c
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-<div class='tableauPlaceholder' id='viz1785207985157' style='position: relative'><noscript><a href='#'><img alt='Top 15 Countries by Average Cantril Ladder Score ' src='https:&#47;&#47;public.tabl[...]
+<div class='tableauPlaceholder' id='viz1785207985157' style='position: relative'><noscript><a href='#'><img alt='Top 15 Countries by Average Cantril Ladder Score ' src='https:&#47;&#47;public.tabl[...]'
 
 <script type='text/javascript'>var divElement = document.getElementById('viz1785207985157');
     var vizElement = divElement.getElementsByTagName('object')[0];
@@ -46,7 +46,7 @@ On the map, in addition to the color scale, we can hover the cursor above each c
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-<div class='tableauPlaceholder' id='viz1785208044443' style='position: relative'><noscript><a href='#'><img alt='Bottom 15 Countries by Average Cantril Ladder Score ' src='https:&#47;&#47;public.table[...]
+<div class='tableauPlaceholder' id='viz1785208044443' style='position: relative'><noscript><a href='#'><img alt='Bottom 15 Countries by Average Cantril Ladder Score ' src='https:&#47;&#47;public.t[...]/'
 <script type='text/javascript'>
     var divElement = document.getElementById('viz1785208044443');
     var vizElement = divElement.getElementsByTagName('object')[0];
@@ -75,9 +75,6 @@ Additionally, this opens the doors for many questions. In figure 3, all of the N
 This distinction matters because evaluating life positively is not exactly the same as believing that life has meaning or purpose. Research has found that income and material prosperity share a st[...]
 
 The answers would likely differ if respondents were asked whether their lives had meaning or purpose. Someone facing financial stress or difficult living conditions might give their current life a[...]
-
-
-![Factors Associated with Life Evaluation](/assets/images/factors.png)
 
 Changing the wording could also affect comparisons between countries because cultures do not always define a good life in the same way. Some societies may emphasize independence and personal achie[...]
 
