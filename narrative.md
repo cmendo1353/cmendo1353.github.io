@@ -108,4 +108,38 @@ subtitle: null
 
 <details>
   <summary><b>Question 6: What is left out of the dataset that can potentially explain happiness/wellbeing?</b></summary>
+  
+<p>Although the variables included in the happiness measurement reveal important patterns, they do not provide a complete explanation of well-being.</p>
+
+<div class='tableauPlaceholder' id='viz1785219021544' style='position: relative'><noscript><a href='#'><img alt='Figure 6.1: Logged GDP per Capita vs. Ladder Score ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sc&#47;scatterplot_17852182348430&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='scatterplot_17852182348430&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sc&#47;scatterplot_17852182348430&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1785219021544');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<p>Figure 6.1 shows a clear positive relationship between logged GDP per capita and Ladder Score. However, countries with similar levels of economic development can still report substantially different happiness outcomes. Among the ten highest-GDP non-Nordic economies, Ladder Scores range from approximately 5.51 in Hong Kong to 7.56 in Switzerland. Singapore also has one of the highest GDP values in the dataset but a Ladder Score of only 6.38. In comparison, Finland has a lower logged GDP per capita than Singapore but the dataset’s highest Ladder Score, at 7.81. The Nordic countries generally appear above the overall trend line, suggesting that income alone cannot explain their high levels of life satisfaction.</p>
+
+<p>Martela et al. argue that Nordic happiness is also supported by high-quality public institutions, effective welfare benefits, social cohesion, and trust in both other people and government. Social support and perceptions of corruption capture only part of this environment. They do not fully measure government effectiveness, democratic participation, the accessibility of public services, generalized trust, or the economic security created by welfare systems. The dataset also emphasizes national averages, leaving out whether happiness is distributed equally among different social and economic groups.</p>
+
+<p>Language and culture introduce another limitation. The dataset records the languages used during Gallup interviews, allowing us to examine possible patterns between interview language and Ladder Score.</p>
+  
+<div class='tableauPlaceholder' id='viz1785218975700' style='position: relative'><noscript><a href='#'><img alt='Figure 6.2: Global Happiness Scores by Country and Predominant Language Group, 2020 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ma&#47;map_17845667358530&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='map_17845667358530&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ma&#47;map_17845667358530&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1785218975700');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<p>Figure 6.2 maps national Ladder Scores and allows countries to be filtered by predominant language group. Some countries classified within the same language group appear to have similar scores, but these patterns overlap strongly with geography. English-speaking countries such as Canada, the United States, Australia, and New Zealand generally display relatively high scores, while Spanish-speaking countries form a visible cluster in Latin America. However, differences also remain within language groups, and multilingual countries cannot always be represented by one category. The map therefore demonstrates a possible association rather than showing that language directly causes happiness.
+</p>
+
+<p> More importantly, recording interview language does not reveal whether respondents interpret happiness questions in equivalent ways. Wierzbicka argues that words translated as “happy” can express different levels or types of positive feeling across languages. Cultural norms may also influence whether respondents express satisfaction enthusiastically or answer more modestly. Exton, Smith, and Vandendriessche similarly distinguish between cultural bias in survey responses and culture’s genuine influence on people’s experiences. They estimate that culture may explain approximately 20 percent of country-specific variation left unexplained by basic life circumstances, although objective conditions remain more influential overall.
+The dataset is therefore a useful but partial representation of well-being. Institutional quality, social trust, welfare security, inequality, and cultural-linguistic differences may all influence either how happiness is experienced or how it is reported through a numerical scale.</p>
 </details>
