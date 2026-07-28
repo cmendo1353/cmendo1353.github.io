@@ -8,7 +8,7 @@ subtitle: null
 
 
 <details>
-  <summary><b>Question 1: </b></summary>
+  <summary><b>Question 1:  What are the happiest and unhappiest countries and regions in the world? </b></summary>
 
 To start off our narrative, we first thought of finding out what the happiest and unhappiest countries/regions are in the world from the data. The dataset includes responses from 153 countries and[...]
 
@@ -65,10 +65,26 @@ Additionally, this opens the doors for many questions. In figure 3, all of the N
 </details>
 
 
+<details>
+  <summary><b>Question 2: What commonalities do the happiest and unhappiest countries share in their respective groups? </b></summary>
+ 
 
+</details>
 
 <details>
-  <summary><b>Question 5: </b></summary>
+  <summary><b>Question 3: Which of the explanatory factors (GDP, social support, life expectancy, freedom, generosity, and perception of corruption) tend to explain a country's happiness the most? </b></summary>
+ 
+
+</details>
+
+<details>
+  <summary><b>Question 4: Are there any countries that are outliers (such as being very happy or unhappy despite factors that would usually suggest otherwise)? If so, what might be some factors that explain this?</b></summary>
+ 
+
+</details>
+
+<details>
+  <summary><b>Question 5: What does the report mean by the term happiness, and if the specific query changed to one related to meaning or purpose, would the answers differ? </b></summary>
  
   After identifying the countries and regions with the highest and lowest scores, as well as the factors that appear to explain those scores, it is important to consider what the dataset actually [...]
 
@@ -79,5 +95,11 @@ The answers would likely differ if respondents were asked whether their lives ha
 Changing the wording could also affect comparisons between countries because cultures do not always define a good life in the same way. Some societies may emphasize independence and personal achie[...]
 
 Ultimately, the World Happiness Report should be understood as measuring one important dimension of well-being instead of every aspect of a good life. Its rankings demonstrate how positively peopl[...]
+
+</details>
+
+<details>
+  <summary><b>Question 6: What is left out of the dataset that can potentially explain happiness/wellbeing? </b></summary>
+ 
 
 </details>
