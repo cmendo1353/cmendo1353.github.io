@@ -1,55 +1,303 @@
-
-    <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta charset="utf-8" />
-<link rel="stylesheet" href="globals.css">
-<link rel="stylesheet" href="styleguide.css">
-<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Positivity Project</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1f2023;
+    --cream:#f2efe6;
+    --teal:#2f8f7f;
+    --teal-2:#4fb3a0;
+    --orange:#f5a733;
+    --orange-2:#f2814f;
+    --blue:#3e8fd0;
+    --pink:#e0507a;
+    --line:#3c5a63;
+    --muted:#6b6f76;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:'Inter', sans-serif;
+    background:#fff;
+    color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+  }
+  .page{
+    max-width:640px;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+    background:#fff;
+  }
+  h1,h2,h3,.brand,.navlink,.eyebrow{
+    font-family:'Poppins', sans-serif;
+  }
+
+  /* ---------- HEADER ---------- */
+  header{
+    background:var(--ink);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:14px 20px;
+    position:relative;
+    z-index:5;
+  }
+  .brand{
+    background:#fff;
+    color:var(--ink);
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:0.06em;
+    padding:7px 14px;
+    border-radius:20px;
+  }
+  nav{display:flex; gap:8px;}
+  .navlink{
+    background:#fff;
+    color:var(--ink);
+    font-size:10px;
+    font-weight:600;
+    letter-spacing:0.03em;
+    padding:7px 12px;
+    border-radius:20px;
+    white-space:nowrap;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;
+    padding:32px 20px 40px;
+    overflow:visible;
+  }
+  .blob{
+    position:absolute;
+    z-index:0;
+    filter:blur(0.5px);
+  }
+  .blob-hero-left{
+    width:220px; height:220px;
+    left:-90px; top:-20px;
+    background:linear-gradient(135deg, var(--teal-2), #8fd0c4 55%, #cfe6a8);
+    border-radius:38% 62% 55% 45% / 45% 40% 60% 55%;
+  }
+  .blob-hero-right{
+    width:180px; height:220px;
+    right:-60px; top:10px;
+    background:linear-gradient(160deg, var(--orange), var(--orange-2));
+    border-radius:50% 50% 40% 60% / 55% 45% 55% 45%;
+  }
+  .hero-frame{
+    position:relative;
+    z-index:2;
+    background:#d6d6d6;
+    height:220px;
+    border-radius:2px;
+    margin-top:8px;
+  }
+
+  .title-block{
+    position:relative;
+    z-index:2;
+    padding:26px 20px 0;
+  }
+  .title-block h1{
+    font-size:28px;
+    font-weight:800;
+    letter-spacing:0.01em;
+    padding-bottom:10px;
+    border-bottom:2.5px solid var(--ink);
+    display:inline-block;
+    margin-bottom:16px;
+  }
+  .title-block p{
+    font-size:16.5px;
+    line-height:1.5;
+    color:#26272a;
+    max-width:460px;
+  }
+
+  /* ---------- SECTION BANNERS ---------- */
+  .banner{
+    background:var(--ink);
+    color:#fff;
+    text-align:center;
+    font-weight:700;
+    font-size:22px;
+    padding:16px 20px;
+    margin-top:36px;
+    letter-spacing:0.01em;
+  }
+
+  /* ---------- CONTENT WRAP + CARDS ---------- */
+  .content-wrap{
+    position:relative;
+    padding:28px 20px 8px;
+    overflow:hidden;
+  }
+  .card{
+    position:relative;
+    z-index:2;
+    background:var(--cream);
+    border:2.5px solid var(--ink);
+    border-radius:14px;
+    padding:34px 30px;
+  }
+  .card p{
+    font-size:16px;
+    line-height:1.55;
+    color:#2a2b2e;
+  }
+  .card .term{
+    font-size:26px;
+    font-weight:700;
+    margin-bottom:18px;
+  }
+  .card .term .pos{
+    color:#8b8f97;
+    font-weight:500;
+  }
+  .card .def{
+    font-size:16px;
+    line-height:1.5;
+    margin-bottom:22px;
+  }
+  .card .def b{font-weight:700;}
+
+  /* decorative line pattern (place in literature) */
+  .lines-bg{
+    position:absolute;
+    inset:0;
+    z-index:0;
+    opacity:0.9;
+  }
+
+  /* blobs near cards */
+  .blob-orange-tr{
+    width:150px; height:130px;
+    right:-40px; top:-10px;
+    background:linear-gradient(150deg, var(--orange), var(--orange-2));
+    border-radius:50% 50% 40% 60% / 60% 40% 60% 40%;
+  }
+  .blob-blue-bl{
+    width:170px; height:130px;
+    left:-70px; bottom:-20px;
+    background:linear-gradient(160deg, var(--blue), #6fb3e6);
+    border-radius:60% 40% 50% 50% / 45% 55% 45% 55%;
+  }
+  .blob-pink-bl{
+    width:130px; height:150px;
+    left:-60px; bottom:0px;
+    background:linear-gradient(160deg, var(--pink), #c93e63);
+    border-radius:45% 55% 55% 45% / 55% 45% 60% 40%;
+  }
+  .blob-teal-tr{
+    width:150px; height:150px;
+    right:-55px; top:20px;
+    background:linear-gradient(150deg, var(--teal-2), var(--teal));
+    border-radius:45% 55% 60% 40% / 55% 45% 55% 45%;
+  }
+
+  footer{
+    background:var(--ink);
+    height:90px;
+    margin-top:36px;
+  }
+
+  @media (max-width:420px){
+    .title-block h1{font-size:24px;}
+    .banner{font-size:19px;}
+  }
+</style>
 </head>
 <body>
-<div class="website" ><img class="vector" src="img/vector.svg" />
-<img class="img" src="img/vector-3.svg" />
-<div class="overlap-group" ><img class="line" src="img/line-4.png" />
-<img class="line-2" src="img/line-1.png" />
-<div class="group" ><div class="group-wrapper" ><div class="div" ><div class="rectangle" ></div>
-<div class="rectangle-2" ></div>
-<div class="rectangle-3" ></div>
-<div class="rectangle-4" ></div>
-<div class="rectangle-5" ></div>
-<div class="text-wrapper" >POSITIVITY PROJECT</div></div></div></div></div>
-<img class="line-3" src="img/line-5.png" />
-<div class="group-2" ><img class="rectangle-6" src="img/rectangle-82.svg" />
-<p class="lorem-ipsum-is" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride</p>
-<div class="div-wrapper" ><div class="group-3" ><div class="a-a-state-of-well-wrapper" ><p class="a-a-state-of-well" ><span class="span" >a :</span>
-<span class="text-wrapper-2" > a state of well-being and contentment</span></p></div></div></div></div>
-<img class="vector-2" src="img/vector-4.svg" />
-<img class="vector-3" src="img/vector-2.svg" />
-<img class="vector-4" src="img/vector-6.svg" />
-<div class="rectangle-7" ></div>
-<div class="rectangle-8" ></div>
-<div class="rectangle-8" ></div>
-<div class="rectangle-9" ></div>
-<div class="display" ><div class="display-2" >POSITIVITY PROJECT</div></div>
-<div class="display-wrapper" ><p class="p" ><span class="text-wrapper-3" >happiness</span>
-<span class="text-wrapper-4" > | </span>
-<span class="text-wrapper-5" >noun</span></p></div>
-<div class="display-3" ><div class="display-4" >Can happiness be measured?</div></div>
-<div class="group-4" ></div>
-<div class="group-5" ></div>
-<div class="display-5" ><div class="display-6" >Introduction</div></div>
-<p class="text-wrapper-6" >Exploring how wealth, freedom, health, and social support shape life satisfaction across countries.</p>
-<img class="line-4" src="img/line-1.svg" />
-<div class="group-6" ><div class="rectangle-10" ></div>
-<div class="text-wrapper-7" >Place in Literature</div></div>
-<div class="group-7" ></div>
-<div class="group-8" ><div class="text-wrapper-8" >Significance</div></div>
-<div class="group-9" ><img class="rectangle-11" src="img/rectangle-82-3.svg" />
-<p class="lorem-ipsum-is-2" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride</p></div>
-<div class="group-10" ><img class="rectangle-11" src="img/rectangle-82-2.svg" />
-<p class="lorem-ipsum-is-2" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride</p></div>
-<img class="vector-5" src="img/image.svg" />
-<img class="vector-6" src="img/vector-5.svg" /></div>
+<div class="page">
+
+  <header>
+    <div class="brand">POSITIVITY PROJECT</div>
+    <nav>
+      <div class="navlink">Timeline</div>
+      <div class="navlink">Narrative</div>
+      <div class="navlink">Data</div>
+      <div class="navlink">About</div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="blob blob-hero-left"></div>
+    <div class="blob blob-hero-right"></div>
+    <div class="hero-frame"></div>
+  </section>
+
+  <div class="title-block">
+    <h1>POSITIVITY PROJECT</h1>
+    <p>Exploring how wealth, freedom, health, and social support shape life satisfaction across countries.</p>
+  </div>
+
+  <div class="banner">Can happiness be measured?</div>
+
+  <div class="content-wrap">
+    <div class="blob blob-orange-tr"></div>
+    <svg class="lines-bg" viewBox="0 0 600 700" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#3c5a63" stroke-width="1.2" fill="none" opacity="0.55">
+        <path d="M -50 550 C 150 450, 350 650, 650 500"/>
+        <path d="M -50 580 C 150 480, 350 680, 650 530"/>
+        <path d="M -50 610 C 150 510, 350 710, 650 560"/>
+        <path d="M -50 460 C 200 300, 400 620, 650 400"/>
+        <path d="M -50 430 C 200 270, 400 590, 650 370"/>
+      </g>
+    </svg>
+    <div class="card">
+      <div class="term">happiness <span class="pos">| noun</span></div>
+      <div class="def"><b>a :</b> a state of well-being and contentment</div>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride</p>
+    </div>
+  </div>
+
+  <div class="banner">Introduction</div>
+
+  <div class="content-wrap">
+    <div class="blob blob-orange-tr"></div>
+    <div class="blob blob-blue-bl"></div>
+    <div class="card">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride</p>
+    </div>
+  </div>
+
+  <div class="banner">Place in Literature</div>
+
+  <div class="content-wrap">
+    <svg class="lines-bg" viewBox="0 0 600 700" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#3c5a63" stroke-width="1.2" fill="none" opacity="0.6">
+        <path d="M -50 50 C 150 -50, 350 150, 650 0"/>
+        <path d="M -50 80 C 150 -20, 350 180, 650 30"/>
+        <path d="M -50 620 C 150 520, 350 720, 650 570"/>
+        <path d="M -50 650 C 150 550, 350 750, 650 600"/>
+        <path d="M -50 680 C 150 580, 350 780, 650 630"/>
+      </g>
+    </svg>
+    <div class="card">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride</p>
+    </div>
+  </div>
+
+  <div class="banner">Significance</div>
+
+  <div class="content-wrap">
+    <div class="blob blob-teal-tr"></div>
+    <div class="blob blob-pink-bl"></div>
+    <div class="card">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride</p>
+    </div>
+  </div>
+
+  <footer></footer>
+
+</div>
 </body>
 </html>
