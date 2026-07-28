@@ -4,7 +4,8 @@ title: Narrative
 subtitle: null 
 --- 
 
-### Analysis: Our narrative is split into 6 questions: question 1 gives an intro the dataset, questions 2 and 3 are meant to display what the dataset can show, question 4 acts as a transition to question what are unusual trends in the data, and questions 5 and 6 discuss what the dataset can't show.
+### Analysis: 
+<p>Our narrative is split into 6 questions: question 1 gives an intro the dataset, questions 2 and 3 are meant to display what the dataset can show, question 4 acts as a transition to question what are unusual trends in the data, and questions 5 and 6 discuss what the dataset can't show.</p>
 
 
 <details>
