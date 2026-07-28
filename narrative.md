@@ -63,18 +63,25 @@ Overall, this opens the doors for many questions. In figure 3, all of the Nordic
 
 </details>
 
+<br>
 
 <details>
   <summary><b>Question 2: What commonalities do the happiest and unhappiest countries share in their respective groups? </b></summary>
 </details>
 
+<br>
+
 <details>
   <summary><b>Question 3: Which of the explanatory factors (GDP, social support, life expectancy, freedom, generosity, and perception of corruption) tend to explain a country's happiness the most? </b></summary>
 </details>
 
+<br>
+
 <details>
   <summary><b>Question 4: Are there any countries that are outliers (such as being very happy or unhappy despite factors that would usually suggest otherwise)? If so, what might be some factors that explain this?</b></summary>
 </details>
+
+<br>
 
 <details>
   <summary><b>Question 5: What does the report mean by the term happiness, and if the specific query changed to one related to meaning or purpose, would the answers differ? </b></summary>
@@ -90,6 +97,8 @@ Changing the wording could also affect comparisons between countries because cul
 Ultimately, the World Happiness Report should be understood as measuring one important dimension of well-being instead of every aspect of a good life. Its rankings demonstrate how positively peopl[...]
 
 </details>
+
+<br>
 
 <details>
   <summary><b>Question 6: What is left out of the dataset that can potentially explain happiness/wellbeing? </b></summary>
