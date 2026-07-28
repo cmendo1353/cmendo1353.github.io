@@ -12,22 +12,16 @@ subtitle: null
 
 To start off our narrative, we first thought of finding out what the happiest and unhappiest countries/regions are in the world from the data. The dataset includes responses from 153 countries and tracks different numeric indexes across them, most notably the Cantril Ladder (Happiness) Score. Therefore, as a baseline to allow for further exploration into other patterns/trends of happiness, we present a global choropleth map that displays the Cantril Ladder score (scale of 1-10) on a green gold color gradient from 2.567 (the minimum average recorded) to 7.809 (the maximum average recorded). A darker green indicates a higher average ladder score for the country, while a yellow gold color indicates a lower average ladder score.
 
-<iframe src="https://public.tableau.com/views/Book2_17536544021750/Sheet2?:showVizHome=no&:embed=true" width="100%" height="650" frameborder="0" allowfullscreen> </iframe>
-
 # <div class='tableauPlaceholder' id='viz1785123122085' style='position: relative'><noscript><a href='#'><img alt='Sheet 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;[...]'
 
-# <script type='text/javascript'>
-    # var divElement = document.getElementById('viz1785123122085');
-    # var vizElement = divElement.getElementsByTagName('object')[0];
-    # vizElement.style.width='100%';
-    # vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-# </script>
-
-<br>
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1785123122085');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='100%';
+    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+</script>
 
 Figure 1.1: Choropleth map of Average Cantril Ladder Scores across 153 Countries
-
-<br>
 
 On the map, in addition to the color scale, we can hover the cursor above each country to get their exact average score. While this map is valuable for seeing overall larger trends, we can also use bar graphs to show the average ladder score by region, as well as the top 15 and bottom 15 (roughly top and bottom 10%) of countries in terms of average ladder score.
 
@@ -61,11 +55,8 @@ On the map, in addition to the color scale, we can hover the cursor above each c
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
-<br>
-  
-Figures 1.2, 1.3, and 1.4: Bar Graphs showing the Average Ladder Score by Region, the Top 15 and Bottom 15 Countries by Average Ladder Score Respectively.
 
-<br>
+Figures 1.2, 1.3, and 1.4: Bar Graphs showing the Average Ladder Score by Region, the Top 15 and Bottom 15 Countries by Average Ladder Score Respectively.
 
 Overall, these bar plots are very telling. Firstly, the two regions with by far the highest average ladder score are Western Europe and North America/Australia and New Zealand. This lines up with how the top 15 countries are dominated by countries in those regions. The bottom 15 countries also reveal a striking pattern: it is predominantly made up of Sub Saharan African countries, with them taking up 11 of the 15 spots. 2 South Asian countries appear as well, and the region itself also has the second lowest average ladder score by region.
 
@@ -76,20 +67,14 @@ Overall, this opens the doors for many questions. In figure 3, all of the Nordic
 
 <details>
   <summary><b>Question 2: What commonalities do the happiest and unhappiest countries share in their respective groups? </b></summary>
- 
-
 </details>
 
 <details>
   <summary><b>Question 3: Which of the explanatory factors (GDP, social support, life expectancy, freedom, generosity, and perception of corruption) tend to explain a country's happiness the most? </b></summary>
- 
-
 </details>
 
 <details>
   <summary><b>Question 4: Are there any countries that are outliers (such as being very happy or unhappy despite factors that would usually suggest otherwise)? If so, what might be some factors that explain this?</b></summary>
- 
-
 </details>
 
 <details>
@@ -109,6 +94,4 @@ Ultimately, the World Happiness Report should be understood as measuring one imp
 
 <details>
   <summary><b>Question 6: What is left out of the dataset that can potentially explain happiness/wellbeing? </b></summary>
- 
-
 </details>
