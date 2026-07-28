@@ -35,6 +35,7 @@ On the map, in addition to the color scale, we can hover the cursor above each c
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+Figure 1.2: Bar Graph showing the Average Ladder Score by Region
 
 <div class='tableauPlaceholder' id='viz1785219326374' style='position: relative'><noscript><a href='#'><img alt='Top 15 Countries by Average Cantril Ladder Score ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top15CountriesbyAvgCantrilLadderScore&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Top15CountriesbyAvgCantrilLadderScore&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top15CountriesbyAvgCantrilLadderScore&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
 <script type='text/javascript'>var divElement = document.getElementById('viz1785207985157');
@@ -44,6 +45,7 @@ On the map, in addition to the color scale, we can hover the cursor above each c
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+Figure 1.3: Bar Graph showing the Top 15 Countries by Average Cantril Ladder Score
 
 <div class='tableauPlaceholder' id='viz1785219363485' style='position: relative'><noscript><a href='#'><img alt='Bottom 15 Countries by Average Cantril Ladder Score ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bottom15CountriesbyAvgCantrilLadderScore&#47;Sheet4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Bottom15CountriesbyAvgCantrilLadderScore&#47;Sheet4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Bottom15CountriesbyAvgCantrilLadderScore&#47;Sheet4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
 <script type='text/javascript'>
@@ -55,7 +57,7 @@ On the map, in addition to the color scale, we can hover the cursor above each c
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-Figures 1.2, 1.3, and 1.4: Bar Graphs showing the Average Ladder Score by Region, the Top 15 and Bottom 15 Countries by Average Ladder Score Respectively.
+Figure 1.4: Bar Graph showing the Bottom 15 Countries by Average Ladder Score.
 
 Overall, these bar plots are very telling. Firstly, the two regions with by far the highest average ladder score are Western Europe and North America/Australia and New Zealand. This lines up with how the top 15 countries are dominated by countries in those regions. The bottom 15 countries also reveal a striking pattern: it is predominantly made up of Sub Saharan African countries, with them taking up 11 of the 15 spots. 2 South Asian countries appear as well, and the region itself also has the second lowest average ladder score by region.
 
