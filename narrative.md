@@ -12,14 +12,16 @@ subtitle: null
 
 To start off our narrative, we first thought of finding out what the happiest and unhappiest countries/regions are in the world from the data. The dataset includes responses from 153 countries and tracks different numeric indexes across them, most notably the Cantril Ladder (Happiness) Score. Therefore, as a baseline to allow for further exploration into other patterns/trends of happiness, we present a global choropleth map that displays the Cantril Ladder score (scale of 1-10) on a green gold color gradient from 2.567 (the minimum average recorded) to 7.809 (the maximum average recorded). A darker green indicates a higher average ladder score for the country, while a yellow gold color indicates a lower average ladder score.
 
-<div class='tableauPlaceholder' id='viz1785123122085' style='position: relative'><noscript><a href='#'><img alt='Sheet 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;[...]'
+<iframe src="https://public.tableau.com/views/Book2_17536544021750/Sheet2?:showVizHome=no&:embed=true" width="100%" height="650" frameborder="0" allowfullscreen> </iframe>
 
-<script type='text/javascript'>
-    var divElement = document.getElementById('viz1785123122085');
-    var vizElement = divElement.getElementsByTagName('object')[0];
-    vizElement.style.width='100%';
-    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-</script>
+# <div class='tableauPlaceholder' id='viz1785123122085' style='position: relative'><noscript><a href='#'><img alt='Sheet 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;[...]'
+
+# <script type='text/javascript'>
+    # var divElement = document.getElementById('viz1785123122085');
+    # var vizElement = divElement.getElementsByTagName('object')[0];
+    # vizElement.style.width='100%';
+    # vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+# </script>
 
 <br>
 
