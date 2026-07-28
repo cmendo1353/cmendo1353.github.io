@@ -23,7 +23,7 @@ navbar-links:
   Home: "/"
   Data: "data"
   Narrative: "narrative"
-  - Figure 5: "Figure 5"
+  - Figure 5: "Figure-5"
   Timeline: "timeline"
   About:
   - Overview: "overview"
