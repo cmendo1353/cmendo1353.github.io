@@ -7,7 +7,7 @@
 
 ############################
 # --- Required options --- #
-###############################
+############################
 
 # Name of website
 title: "Positivity Project: Happiness Around the World"
@@ -22,8 +22,9 @@ author: "Anish Saraswat, Kexin Wang, Cameron Mendoza, Selma Momani, Matin Nikoom
 navbar-links:
   Home: "/"
   Data: "data"
-  Narrative: "narrative"
-  Figure 5: "Figure-5"
+  Narrative:
+    Narrative: "narrative"
+    Figure 5: "Figure-5"
   Timeline: "timeline"
   About:
     Overview: "overview"
