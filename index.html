@@ -5,14 +5,14 @@ subtitle: Happiness Around the World
 ---
 
 <style>
-/* Hero image styles - full width, responsive, and covers container */
-.overlay-image-container{position:relative;width:100%;height:360px;overflow:hidden;margin-bottom:1.25rem;border-radius:6px;}
-.overlay-image{display:block;width:100%;height:100%;object-fit:cover;object-position:center center;border:0;}
+/* Option A: larger hero + focus on the smile (object-position: center top) */
+.overlay-image-container{position:relative;width:100%;height:520px;overflow:hidden;margin-bottom:1.25rem;border-radius:6px;}
+.overlay-image{display:block;width:100%;height:100%;object-fit:cover;object-position:center top;border:0;}
 .overlay-image-caption{position:absolute;right:1rem;bottom:0.75rem;background:rgba(255,255,255,0.85);padding:0.35rem 0.6rem;border-radius:4px;font-size:0.85rem;color:#333;text-align:right;}
 
-/* Reduce height on small screens */
-@media (max-width:900px){ .overlay-image-container{height:260px;} }
-@media (max-width:600px){ .overlay-image-container{height:180px;} .overlay-image-caption{font-size:0.78rem;right:0.5rem;bottom:0.5rem;} }
+/* Reduce height on smaller screens */
+@media (max-width:900px){ .overlay-image-container{height:360px;} }
+@media (max-width:600px){ .overlay-image-container{height:200px;} .overlay-image-caption{font-size:0.78rem;right:0.5rem;bottom:0.5rem;} }
 
 /* Ensure main content sits below the hero */
 .main-content{position:relative;z-index:1}
