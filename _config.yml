@@ -23,12 +23,12 @@ navbar-links:
   Home: "/"
   Data: "data"
   Narrative:
-    Narrative: "narrative"
-    Figure 5: "Figure-5"
+  - Narrative: "narrative"
+  - Figure 5: "Figure-5"
   Timeline: "timeline"
   About:
-    Overview: "overview"
-    Bibliography: "bibliography"
+  - Overview: "overview"
+  - Bibliography: "bibliography"
 
 ################
 # --- Logo --- #
