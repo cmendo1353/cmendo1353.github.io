@@ -23,6 +23,8 @@ To start off our narrative, we first thought of finding out what the happiest an
 
 Figure 1: Choropleth map of Average Cantril Ladder Scores across 153 Countries
 
+<br>
+
 On the map, in addition to the color scale, we can hover the cursor above each country to get their exact average score. While this map is valuable for seeing overall larger trends, we can also use bar graphs to show the average ladder score by region, as well as the top 15 and bottom 15 (roughly top and bottom 10%) of countries in terms of average ladder score.
 
 <div class='tableauPlaceholder' id='viz1785207834984' style='position: relative'><noscript><a href='#'><img alt='Average Ladder Score by Region ' src='https:&#47;&#47;public.tableau.com&#47;static[...]'
@@ -57,6 +59,8 @@ On the map, in addition to the color scale, we can hover the cursor above each c
 </script>
 
 Figures 2, 3, and 4: Bar Graphs showing the Average Ladder Score by Region, the Top 15 and Bottom 15 Countries by Average Ladder Score Respectively.
+
+<br>
 
 Overall, these bar plots are very telling. Firstly, the two regions with by far the highest average ladder score are Western Europe and North America/Australia and New Zealand. This lines up with how the top 15 countries are dominated by countries in those regions. The bottom 15 countries also reveal a striking pattern: it is predominantly made up of Sub Saharan African countries, with them taking up 11 of the 15 spots. 2 South Asian countries appear as well, and the region itself also has the second lowest average ladder score by region.
 
