@@ -22,9 +22,7 @@ author: "Anish Saraswat, Kexin Wang, Cameron Mendoza, Selma Momani, Matin Nikoom
 navbar-links:
   Home: "/"
   Data: "data"
-  Narrative:
-  - Narrative: "narrative"
-  - Figure 5: "Figure-5"
+  Narrative: "narrative"
   Timeline: "timeline"
   About:
   - Overview: "overview"
